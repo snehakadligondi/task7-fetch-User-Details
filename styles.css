@@ -1,0 +1,11 @@
+:root{--bg:#f6f8fa;--card:#fff;--border:#e1e4e8}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;margin:0;background:var(--bg);color:#111}
+.container{max-width:900px;margin:36px auto;padding:16px}
+.controls{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+button{padding:8px 12px;border-radius:6px;border:1px solid var(--border);background:#fff;cursor:pointer}
+.users-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.user-card{background:var(--card);padding:12px;border:1px solid var(--border);border-radius:8px;box-shadow:0 1px 2px rgba(0,0,0,0.03)}
+.user-card h2{margin:0 0 8px;font-size:1.05rem}
+.error{color:#b00020}
+a{color:inherit}
